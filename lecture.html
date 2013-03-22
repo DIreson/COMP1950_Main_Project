@@ -1,0 +1,187 @@
+<!DOCTYPE Html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" media="screen" />
+		<link rel="stylesheet" href="css/style_screen.css" media="screen" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<header id="header">
+			<div class="container">
+    			<h1>COMP 1950</h1>
+    			<h2>Intermediate Web Design and Development</h2>
+    		</div>
+    		<div id="container-below" class="row-fluid">
+    			<div id="breadcrumb" class="span6">
+					<ul class="breadcrumb">
+						<li><a href="#">comp 1950</a> <span class="divider">>></span></li>
+						<li class="active"> Week 2: tools and xhtml</li>
+					</ul>
+				</div>
+				<div class="span6 top-menu">
+					    <ul class="nav nav-pills">
+    					<li >
+					    <a href="#"><i class="icon-envelope icon-white"></i> Email</a>
+					    </li>
+					    <li >
+					    <a href="#"><i class="icon-home icon-white"></i> Home</a>
+					    </li>
+					    <li class="active"><a href="#"><i class="icon-book icon-white"></i> Lectures</a></li>
+					    <li><a href="#"><i class="icon-book icon-white"></i> Homework</a></li>
+					    <li><a href="#"><i class="icon-folder-open icon-white"></i> Project</a></li>
+					    </ul>
+				</div>
+				</div>
+    		</div>
+			
+    	</header>
+    	
+		<nav class="navigation">
+			<ul class="nav nav-tabs nav-stacked">
+				<li class="main-link"><a href="#">Lectures</a></li>
+				<li><a href="#"><span class="badge badge-default">1</span> Introduction</a></li>
+				<li class="active"><a href="#"><span class="badge badge-default">2</span> Tools & Standards</a></li>
+				<li><a href="#"><span class="badge badge-default">3</span> Css Concepts</a></li>
+				<li><a href="#"><span class="badge badge-default">4</span> More css</a></li>
+			</ul>
+			<div class="gutter"></div>
+		</nav>
+    	<section id="content">
+			<article>
+				<header><h3>Agenda</h3></header>
+				<div class="article-body">
+					<ul>
+                  <li>
+                     Web review: some reminders
+                  </li>
+                  <li>
+                     Web Development with Firefox, Chrome and Safari
+                  </li>
+                  <li>
+                     Standards &amp; Semantics
+				  </li>
+				  <li>
+				  	XHTML Review
+				  </li>
+				  <li>
+				  	Assignment &amp; Homework
+				  </li>
+ 
+               </ul>
+				</div>
+			</article>
+			<article>
+				<header><h3>Web review: reminders </h3></header>
+				<div class="article-body">
+					<h4>Lots of options</h4>
+<ul>
+	<li>These days there are lots of browser-based tools available for web developers</li>
+	<li>Webkit (<a href="www.google.com/chrome">Chrome</a>, <a href="http://www.apple.com/safari/">Safari</a>) and Mozilla (<a href="http://www.mozilla.org/en-US/firefox">Firefox</a>) both have built-in tools</li>
+	<li>Tools are enhanced by their organizations</li>
+	<li>Easy to develop and troubleshoot now</li>
+	<li>We will look at <a href="www.google.com/chrome">Chrome</a> and <a href="http://www.apple.com/safari/">Safari</a> but, in COMP 1950, the focus will be <a href="http://www.mozilla.org/en-US/firefox">Firefox</a></li>
+</ul>
+
+
+<h4>Why Use Firefox?</h4>
+<ul>
+	<li>Open source and user supported</li>
+	<li>Extremely standards compliant </li>
+	<li>Designed by web developers</li>
+	<li>Uses the superb Gecko page-rendering engine</li>
+	<li>Current version very solid (with minimal extensions)</li>
+	<li>Built in tools are excellent</li>
+	<li>Works for large or small-scale development</li>
+	<li>Excellent selection of extensions</li>
+</ul>
+ 
+<h4>Challenges</h4>
+<ul>
+	<li>Open source and user supported</li>
+	<li>User contributable code and suggestions</li>
+	<li>Can become heavy under it's own weight: extensions &amp; add-ons</li>
+</ul>
+ 
+<h4>Considerations</h4>
+<ul>
+	<li>Remember that there are other browsers out there!</li>
+	<li>Test in Moz/IE/Opera/FF and anything else just to be sure</li>
+</ul>
+
+				</div>
+			</article>
+			<article>
+				<header><h3>Semantic Markup</h3></header>
+				<div class="article-body">
+					<h4>What is Semantic Markup?</h4>
+<ul>
+	<li>Practice of organizing your content into a hierarchy</li>
+	<li>Using appropriate tags for the content</li>
+	<li>H1 ... 6 tags for headings</li>
+	<li>Paragraph tags instead of double BR tags</li>
+	<li>CSS instead of FONT</li>
+	<li>Sounds straightforward, but people are stuck in presentation</li>
+	<li>Key: Separate Content (XHTML) from Presentation (CSS)</li>
+</ul>
+
+<h4>Building Content Relationships</h4>
+<ul>
+	<li>Use appropriate tags for headings, content, sub-content, lists</li>
+	<li>This builds a relationship that descends from the title of the page</li>
+	<li>Each section is a discrete piece of information</li>
+	<li>Headings are related to following paragraphs</li>
+	<li>Citations, quotes, code samples can be contextualized by nearest heading</li>
+</ul>
+
+<h4>Logical vs. Physical Styles</h4>
+<ul>
+	<li>Tend to display identically in browsers, but are fundamentally different</li>
+	<li>Physical styles define what content <em>looks like</em></li>
+	<li>Logical styles define what content <em>is</em></li>
+	<li>Important for screen readers (see IBM's Hope Page Reader above)</li>
+	<li>Some physical styles:
+	<ul>
+	<li><code>b</code> - Bold</li>
+	<li><code>i</code> - Italic</li>
+	<li><code>s</code> - Strikethrough</li>
+	<li><code>u</code> - Underline</li>
+	</ul></li>
+</ul>
+
+<h4>Logical Styling</h4>
+<ul>
+	<li>Best way to markup content for long-term usage</li>
+	<li>Use CSS to change style (and some behaviour)</li>
+	<li>Use DOM to change behaviour (via scripting)</li>
+	<li>Requires thinking ahead</li>
+	<li>Examples of logical styles:
+	<ul>
+	<li><code>code</code> - <code>Code sample</code></li>
+	<li><code>kbd</code> - <kbd>Keyboard entry</kbd></li>
+	<li><code>samp</code> - <samp>Programming sample</samp></li>
+	<li><code>var</code> - <var>Variable</var></li>
+	<li><code>cite</code> - <cite>Citation</cite></li>
+	<li><code>dfn</code> - <dfn>Definition</dfn></li>
+	<li><code>abbr</code> - <abbr title="Abbreviation definition here">Abbreviation</abbr></li>
+	<li><code>acronym</code> - <acronym title="This is an acronym">Acronym</acronym></li>
+	<li><code>del</code> - <del>Deleted text</del></li>
+	<li><code>ins</code> - <ins>Inserted text</ins></li></ul></li>
+</ul>
+ 
+<h4>Key Advantages</h4>
+<ul>
+	<li>Content is relational - context can be determined easily</li>
+	<li>Extracting important pieces of information is simple (CITE or CODE tags for example)</li>
+	<li>Search engine optimization</li>
+	<li>Big win for jQuery (again)!</li>
+	<li>Screen readers</li>
+</ul> 
+				</div>
+			</article>
+    	</section>
+    	<footer class="container-fluid">
+    		
+    	</footer>
+	</body>
+</html>

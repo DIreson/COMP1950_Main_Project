@@ -46,6 +46,10 @@ body {
 	padding-top: 110px;
 }
 
+#container-below {
+	background-color:#7879C4;
+}
+
 #content .gutter {
 	background-color:#7879C4;
 	min-height:1000px;
@@ -83,10 +87,24 @@ article .article-body {
 	padding:10px;
 }
 
-.nav {
+.navigation {
 	margin-top:30px;
+}
+
+.top-menu .nav,.top-menu  .nav-pill {margin-bottom:0px;
+	
+}
+.top-menu a {
+	color:white;
 }
 
 .main-link {
 	font-weight:bold;
+}
+
+.icon-homework {
+    background-image: url("../img/homework.png");
+    background-position: center center;
+     height: 14px;
+width: 14px;
 }
