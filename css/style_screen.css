@@ -41,9 +41,9 @@ body {
 }
 
 #content {
-	margin: 30px;
-	padding-right: 230px;
-	padding-top: 110px;
+	margin-right: 260px;
+	padding: 140px 30px 30px 30px;
+	border-right: 30px solid #7879C4;
 }
 
 #container-below {
@@ -61,7 +61,7 @@ nav {
 	width: 200px;
 	right: 30px;
 	display: inline-block;
-	padding-top: 120px;
+	padding-top: 150px;
 }
 
 article {
