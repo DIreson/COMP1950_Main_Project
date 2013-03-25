@@ -3,9 +3,12 @@
 	<head>
 		<title></title>
 		<link rel="stylesheet" href="css/bootstrap.css" media="screen" />
-		<link rel="stylesheet" href="css/style_screen.css" media="screen" />
+		<link rel="stylesheet" href="css/style_screen.css" media="screen" title="Normal" />
+		<link rel="alternate stylesheet" href="css/overhead.css" media="screen" title="Overhead" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/print.css" media="print" />
+		<script src="js/styleswitcher.js"></script>
+		<meta charset="UTF-8">
 	</head>
 	<body>
 		<header id="header">
@@ -31,7 +34,8 @@
 					    </li>
 					    <li><a href="lecture.html"><i class="icon-book icon-white"></i><span class="hide-small"> Lectures</span></a></li>
 					    <li><a href="#"><i class="icon-book icon-white"></i><span class="hide-small"> Homework</span></a></li>
-					    
+						<li><a href="#" onClick="setActiveStyleSheet('Overhead'); return false;"><i class="icon-zoom-in icon-white"></i></a></li>
+						<li><a href="#" onClick="setActiveStyleSheet('Normal'); return false;"><i class="icon-zoom-out icon-white"></i></a></li>
 					    </ul>
 				</div>
     		</div>

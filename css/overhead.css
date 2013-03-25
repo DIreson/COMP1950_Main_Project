@@ -3,7 +3,7 @@ body {
 }
 
 #header {
-	position: fixed;
+	position: static;
 	display: block;
 	background-color:#25316B;
 	color:white;
@@ -41,9 +41,9 @@ body {
 }
 
 #content {
-	margin-right: 360px;
-	padding: 140px 30px 30px 30px;
-	border-right: 30px solid #7879C4;
+	margin-right: 0;
+	padding: 30px 30px 30px 30px;
+	border-right: none;
 }
 
 #container-below {
@@ -57,11 +57,16 @@ body {
 }
 
 nav {
-	position: fixed;
-	width: 300px;
-	right: 30px;
 	display: inline-block;
-	padding-top: 150px;
+	position: static;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 30px solid #7879C4;
+}
+
+.nav-stacked {
+	margin: 0 30px 8px 30px;
 }
 
 article {
@@ -73,7 +78,6 @@ article header {
 	color:white;
 	width:300px;
 	text-align:center;
-
 }
 
 article header h3 {
@@ -85,6 +89,12 @@ article .article-body {
 	margin-left:30px;
 	border:thin lightgrey solid;
 	padding:10px;
+	font-size: 150%;
+	font-weight: 150%;
+}
+
+article .article-body h4 {
+	font-size: 125%;
 }
 
 .navigation {
@@ -128,33 +138,7 @@ footer a {
 }
 
 @media (max-width: 767px) {
-	#header {
-		position: static;
-	}
-	
-	#breadcrumb {
-		position: static;
-	}
-	
 	.nav {
 		margin-left: 30px;
-	}
-	
-	nav {
-		position: static;
-		width: 100%;
-		margin: 0px;
-		padding: 0px;
-		border-bottom: 30px solid #7879C4;
-	}
-	
-	.nav-stacked {
-		margin: 0 30px 8px 30px;
-	}
-	
-	#content {
-		margin-right: 0;
-		padding: 30px 30px 30px 30px;
-		border-right: none;
 	}
 }
