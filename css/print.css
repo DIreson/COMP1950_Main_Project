@@ -1,0 +1,115 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+	position: static;
+	display: block;
+	background-color: white;
+	color: black;
+	width: 100%;
+	top: 0px;
+	margin: 0px;
+}
+
+#header .container {
+	margin-left: 30px;
+	margin-right: 30px;
+	padding: 0;
+}
+
+#header h2 {
+	font-weight:normal;
+}
+
+#breadcrumb {
+	background-color: white !important;
+	
+}
+
+#breadcrumb .breadcrumb {
+	background-color: white !important;
+	padding: 8px 0px 8px;
+	margin-bottom:0px;
+	margin-left: 30px;
+	margin-right: 30px;
+	color: black !important;
+	list-style: none;
+}
+
+#breadcrumb .breadcrumb li, #breadcrumb .breadcrumb a {
+	text-shadow:none;
+	color: black !important;
+	display: inline;
+	
+}
+
+#content {
+	margin-right: 0px;
+	padding: 30px 30px 30px 30px;
+	border-right: none;
+}
+
+#container-below {
+	background-color: white;
+}
+
+#content .gutter {
+	background-color: white;
+	min-height:1000px;
+	width:35px;
+}
+
+nav {
+	display: none;
+}
+
+article {
+	margin-top:40px;
+}
+
+article header {
+	background-color: white;
+	color: black;
+	width:300px;
+	text-align:center;
+	border: 1px solid grey;
+}
+
+article header h3 {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+article .article-body {
+	margin-left:30px;
+	border:thin lightgrey solid;
+	padding:10px;
+}
+
+.navigation {
+	display: none;
+}
+
+.top-menu .nav,.top-menu  .nav-pill {
+	display: none;
+}
+.top-menu a {
+	display: none;
+}
+
+.main-link {
+	font-weight:bold;
+}
+
+.icon-homework {
+	background-image: url("../img/homework.png");
+	background-position: center center;
+	height: 14px;
+	width: 14px;
+}
+
+footer {
+	display: none;
+}
+}
