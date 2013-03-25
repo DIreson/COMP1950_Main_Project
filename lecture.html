@@ -19,17 +19,17 @@
 						<li class="active"> Week 2: tools and xhtml</li>
 					</ul>
 				</div>
-				<div class="span6 top-menu">
+				<div class="span6 top-menu hidden-print">
 					     <ul class="nav nav-pills">
     					
 					     <li>
-					    <a href="client.html"><i class="icon-user icon-white"></i> Client</a>
+					    <a href="client.html"><i class="icon-user icon-white"></i><span class="hide-small"> Client</span></a>
 					    </li>
 					    <li >
-					    <a href="index.html"><i class="icon-home icon-white"></i> Home</a>
+					    <a href="index.html"><i class="icon-home icon-white"></i><span class="hide-small"> Home</span></a>
 					    </li>
-					    <li class="active"><a href="lecture.html"><i class="icon-book icon-white"></i> Lectures</a></li>
-					    <li><a href="#"><i class="icon-book icon-white"></i> Homework</a></li>
+					    <li class="active"><a href="lecture.html"><i class="icon-book icon-white"></i><span class="hide-small"> Lectures</span></a></li>
+					    <li><a href="#"><i class="icon-book icon-white"></i><span class="hide-small"> Homework</span></a></li>
 					    
 					    </ul>
 				</div>
@@ -37,7 +37,7 @@
 			
     	</header>
     	
-		<nav class="navigation">
+		<nav class="navigation hidden-print">
 			<ul class="nav nav-tabs nav-stacked">
 				<li class="main-link"><a href="#">Lectures</a></li>
 				<li><a href="#"><span class="badge badge-default">1</span> Introduction</a></li>
@@ -46,6 +46,21 @@
 				<li><a href="#"><span class="badge badge-default">4</span> More css</a></li>
 			</ul>
 			<div class="gutter"></div>
+			<div>
+				<script>
+				  (function() {
+					var cx = '011934280782493958193:5neqv1_wzm4';
+					var gcse = document.createElement('script');
+					gcse.type = 'text/javascript';
+					gcse.async = true;
+					gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+						'//www.google.com/cse/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				  })();
+				</script>
+				<gcse:search></gcse:search>
+			</div>
 		</nav>
     	<section id="content">
 			<article>
@@ -180,7 +195,7 @@
 				</div>
 			</article>
     	</section>
-    	<footer class="container-fluid">
+    	<footer class="container-fluid hidden-print">
     		<div class="row">
     			<div class="span12"><a href="http://html5.validator.nu/?doc=http%3A%2F%2Fteams.thenet.ca%2Fsamurai%2Fclient.html">HTML5 validation</a></div>
     			
