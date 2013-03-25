@@ -108,3 +108,15 @@ article .article-body {
      height: 14px;
 width: 14px;
 }
+
+footer {
+	color:white;
+	padding:20px;
+	background-color:#7879C4;
+	text-align:center;
+	min-height:50px;
+}
+
+footer a {
+	color:white;
+}
