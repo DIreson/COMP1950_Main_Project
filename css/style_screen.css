@@ -10,6 +10,7 @@ body {
 	width: 100%;
 	top: 0px;
 	margin: 0px;
+	z-index: 100;
 }
 
 #header .container {
